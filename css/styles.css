@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: rgb(37, 185, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    width: 100%;
+    padding: 15px 25px;
+    border-radius: 1rem;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.panel-img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.panel-graphics {
+    border-bottom: 1px solid #476ce6da;
+}
+
+.panel-graphics:last-child {
+    border-bottom: none;
+}
+
+.panel-title {
+    color: #888;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.panel-features {
+    margin: 50px 0 25px;
+    color: #016ff9;
+}
+
+.panel-features-item {
+    border-top: 1px solid #d4dcf7da;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    padding:  15px 0;
+}
+
+.panel-features-item:last-child {
+    border-bottom: 1px solid #d4dcf7da;
+}
+
+.pricing {
+    display: block;
+    
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.price-button {
+    text-decoration: none;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    padding: 5px 35px;
+    display: inline-block;
+    margin: 25px 0px;
+    transition: all 250ms ease-in-out;
+}
+
+.price-button:hover, .price-button:focus {
+    background-color: #7ac1ff;
+    color: #fff;
+}
+
+.price-button.priceoffer{
+    background-color: #48aaff;
+    color: #fff;
+}
+
+.price-button.priceoffer:hover, .price-button.priceoffer:focus{
+
+    background-color: #269aff;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+
+    .mainpanel {
+        flex-direction: row;
+    }
+    
+    .panel-graphics {
+        border-bottom: none;
+        border-right: 1px solid #d4dcf7da;;
+        padding: 25px 50px;
+    }
+    
+    .panel-graphics:last-child {
+        border-right: none;
+    }
+}
