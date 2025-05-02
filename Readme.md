@@ -1,4 +1,4 @@
-# IA PANEL - HTML & CSS Project [EN]
+# AI PANEL - HTML & CSS Project [EN]
 
 This is a personal project to show what I've learned so far in HTML and CSS. I applied `flexbox` and `media queries` to create a layout that works well on both mobile and desktop screens.
 
